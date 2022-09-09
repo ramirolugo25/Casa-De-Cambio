@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    min-width: 320px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(58, 58, 58);
+}
+.error{
+    border: 2px solid red;
+}
+
+.texto-error{
+    font-size: 1.5rem;
+    color: red;
+}
+
+h1{
+    display: flex;
+    width: 100vw;
+    min-width: 320px;
+    justify-content: center;
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(236, 120, 37);
+}
+
+select{
+    width: 350px;
+    height: 50px;
+}
+label{
+    font-size: 2rem;
+    color: white;
+}
+
+input{
+    width: 350px;
+    height: 50px;
+}
+
+#contenedor{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    gap: 50px;
+}
+
+#contenedor-izquierdo, #contenedor-derecho{
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+}
+
+#moenda-1, #moneda-2, #cantidad, #cantidad-moneda-2{
+    min-width: 320px;
+}
+
+#contenedor-fecha{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenedor-input-fecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-width: 320px;
+}
+
+#boton-convertir{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(236, 120, 37);
+}
+
+
+
+
+
+
+

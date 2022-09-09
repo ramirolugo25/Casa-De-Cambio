@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Casa de Cambio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+
+</head>
+
+<body>
+
+    <h1>Casa de Cambio</h1>
+
+    <div id="contenedor">
+        <div id="contenedor-izquierdo">
+            <select name="moneda-1" id="moneda-1">
+            </select>
+
+            <input id="cantidad" type="number" placeholder="Cantidad" value="1">
+
+            
+        </div>
+        
+        <div id="contenedor-derecho">
+    
+            <select name="moneda-2" id="moneda-2">
+            </select>
+
+            <input id="cantidad-moneda-2" type="number" disabled>
+        </div>
+
+        
+        
+
+        
+    </div>
+    <div id="errores">
+
+    </div>
+    
+    <div id="contenedor-fecha">
+        <label>Fecha</label>
+        <div id="contenedor-input-fecha">
+            <input id='fecha' type="date">
+        </div>    
+        
+    
+    </div>
+    
+
+    <button id="boton-convertir">Convertir</button>
+ 
+
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="src/funciones.js"></script>
+    <script src='src/index.js'></script>
+</body>
+
+</html>
