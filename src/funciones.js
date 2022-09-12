@@ -42,7 +42,7 @@ function validarCantidad(cantidad){
     if(cantidad < 0){
         return 'La cantidad no puede ser menor a cero';
     }
-    if(!/^[1-9]+$/.test(cantidad)){
+    if(!/^[0-9]+$/.test(cantidad)){
         return 'La cantidad no puede incluir letras';
     }
 
